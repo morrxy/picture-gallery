@@ -4,7 +4,9 @@ generated using Luminus version "2.9.11.14"
 
 ## Prerequisites
 
-You will need [Leiningen][1] 2.0 or above installed.
+You will need [Leiningen][1] 2.0 or above installed, to install:
+
+    brew install leiningen
 
 [1]: https://github.com/technomancy/leiningen
 
