@@ -10,9 +10,15 @@ You will need [Leiningen][1] 2.0 or above installed.
 
 ## DataBase
 
-1. install Postgresql
+1. install PG
 
-2. create Application DB
+    `brew install postgresql`
+
+2. start PG
+
+    `pg_ctl -D /usr/local/var/postgres start`
+
+3. create Application DB
 
     1. `psql postgres`
     2. `CREATE USER gallery WITH PASSWORD 'pictures';`

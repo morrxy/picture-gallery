@@ -54,7 +54,7 @@
     :modal
     (fn []
       [c/modal
-       [:h2 "Remove " name "?"]
+       [:div "Remove " name "?"]
        [:div [:img {:src (str js/context "/gallery/" owner "/" name)}]]
        [:div
         [:button.btn.btn-primary
